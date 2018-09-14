@@ -7,14 +7,19 @@
 \usepackage{graphicx}
 %\usepackage{xeCJK}
 \usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{color,soul}
+\usepackage{textcomp}
 %\setmainfont{kaiu.ttf}
 \graphicspath{ {images/}}
 \usepackage[left=0.3in, right=0.3in, bottom=0.29in, top=0.29in]{geometry}
 \newcommand*{\Skype}{\href{skype:john.smith?add}{john.smith}}
 \newcommand{\Absender}[1][\normalsize]{\Skype}
+\usepackage[symbol]{footmisc}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \pagenumbering{gobble}
 \begin{document}
-\noindent  \textit{\large\textbf{Zheye Yuan}}\footnote{Dual citizenship. \textit{Tetsuya Hara} is on Japanese documents. \textit{Zheye Yuan} is on American documents (used in graduate school). In characters it is {\setmainfont{kaiu.ttf} 原晣也}.}
+\noindent  \textit{\large\textbf{Zheye Yuan}}\footnote[1]{\noindent Dual citizenship. \textit{Tetsuya Hara} is on Japanese documents. \textit{Zheye Yuan} is on American documents. In characters it is {\setmainfont{kaiu.ttf} 原晣也}.}
 %\vspace{3ex}
 %\hline
 \small
@@ -30,86 +35,72 @@
 \begin{center}
  \begin{tabular}{l l}
   \hline
-                         &                                                                                                       \\
-  \textbf{Education}     & \textit{Pennsylvania State University, University Park}, Ph.D., Statistics, expected May 2019,        \\
-                         & Advisor: Bing Li, GPA: 3.96/4.00                                                                      \\
-                         &                                                                                                       \\
-                         & \textit{Hitotsubashi University}, B.A., Economics, 2014,                                              \\
-                         & Advisors: Naoyuki Ishimura, Kenta Kobayashi, GPA: 3.94/4.00                                           \\
-                         &                                                                                                       \\
-                         & \textit{University of California, Berkeley}, Exchange, Mathematics, 2013                              \\
-                         & GPA: 3.814/4.00                                                                                       \\
-                         &                                                                                                       \\ \hline
-                         &                                                                                                       \\
-  \textbf{Work}          & \textit{Intern, Research \& Development,}, \textit{Ford GDI\&A},Summer 2018                           \\
-  \textbf{Experience}    & Clustering car nameplates using Poincar\'e Embedding                                                  \\
-                         &                                                                                                       \\
-                         & \textit{Intern, Nomura Research Institute}, Summer 2013                                               \\
-                         & Analyzed interface \& data storage optimization for portable device used by insurance sales person.   \\
-                         &                                                                                                       \\
-                         & \textit{Statistical Consulting Center,} \textit{Pennsylvania State University}, 2015                  \\
-                         & Provided statistical consulting for graduate students from other departments.                         \\
-                         &                                                                                                       \\\hline
-                         &                                                                                                       \\
-  \textbf{Awards \&}     & Best Poster Award, Penn State Statistics,50th Anniversary Conference, May 2018                        \\
-  \textbf{Scholarships}  &                                                                                                       \\
-                         &                                                                                                       
-  \textit{Graduate Assistanship}, Department of Statistics, Pennsylvania State University, 2014 to present                       \\
-                         & Graded Ph.D. level and taught Junior and Senior level courses.                                        \\
-                         &                                                                                                       \\
-                         & \textit{Excellent Academic Achievement}, Department of Economics, Hitotsubashi University, 2012       \\
-                         &                                                                                                       \\
-                         & \textit{Japan Student Services}, \textit{Organization Scholarship}, For exchange to UC Berkeley, 2013 \\
-                         &                                                                                                       \\ \hline
-                         &                                                                                                       \\
-  \textbf{Service \& }   &                                                                                                       
-  \textit{ASA Datafest Volunteer}, Department of Statistics, Pennsylvania State University, 2017                                 \\
-  \textbf{Membership}    &                                                                                                       \\
-                         & \textit{Dorm Management Volunteer}, Int. Students Dorm. Assoc. of Kodaira, 2012                       \\
-                         &                                                                                                       \\ \hline
-                         &                                                                                                       \\
-  \textbf{Research}      & Dimension Reduction, Functional Data Analysis, Support Vector Machines, Neural Networks,              \\
-                         & Graph Embedding, Reproducing Kernel Hilber Space                                                      \\
-                         &                                                                                                       \\ \hline
-                         &                                                                                                       \\
-  % \textbf{Practical}& Semiparametric Copula Estimation\\
-  % \textbf{Experiences}& Quantile Regression\\
-  % \textbf{\& Projects}&Non-stationary Time Series Analysis\\
-  % & Discrete Cosine Transform Portfolio Construction\\
-  % & Linear \& Quadratic Programming\\
-  % & Numerical Calculation of Derivative Prices\\
-  % & Substitute Charge Method\\
-  % & Finite Element Method\\
+                           &                                                                                                               \\
+  \textbf{Education}       & \textit{Pennsylvania State University, University Park}, \hl{Ph.D., Statistics}, expected May 2019,           \\
+                           & Advisor: Bing Li, GPA: 3.96/4.00                                                                              \\
+                           &                                                                                                               \\
+                           & \textit{Hitotsubashi University, Kunitachi}, B.A., Economics, 2014,                                           \\
+                           & Advisors: Naoyuki Ishimura, Kenta Kobayashi, GPA: 3.94/4.00                                                   \\
+                           &                                                                                                               \\
+                           & \textit{University of California, Berkeley}, Exchange, Mathematics, 2013                                      \\
+                           & GPA: 3.814/4.00                                                                                               \\
+                           &                                                                                                               \\ \hline
+                           &                                                                                                               \\
+  \textbf{Work \& Service} & \textit{\hl{Intern}, Research \& Development, Ford Global Data Insights \& Analytics}, Summer 2018            \\
+  \textbf{Experience}      & Clustered car nameplates using hierarchical clustering and Poincar\'e embedding.                              \\
+                           &                                                                                                               \\
+                           & \textit{\hl{Intern}, Nomura Research Institute}, Summer 2013                                                  \\
+                           & Analyzed interface \& data storage optimization for portable device used by insurance sales person.           \\
+                           &                                                                                                               \\
+                           & \textit{\hl{Consultant}, Statistical Consulting Center, Pennsylvania State University}, 2015                  \\
+                           & Provided statistical consulting for graduate students from other departments.                                 \\
+                           &                                                                                                               \\
+                           & \textit{ASA Datafest \hl{Volunteer}}, Department of Statistics, Pennsylvania State University, 2017           \\
+                           &                                                                                                               \\
+                           & \textit{Dorm Management \hl{Volunteer}}, International Students Dormitory Association of Kodaira, 2012        \\
+                           &                                                                                                               
+  \\\hline
+                           &                                                                                                               \\
+  \textbf{Awards, }        & \hl{\textit{Best Poster Award}}, Penn State Statistics 50th Anniversary Conference, May 2018                  \\
+  \textbf{Scholarships \&}
+                           &                                                                                                               
+  \textit{Graduate Assistanship}, Department of Statistics, Pennsylvania State University, 2014 to present                                 \\
+  \textbf{Certification}   & \hl{Graded Ph.D. level} and \hl{taught Junior and Senior level} courses.                                      \\
+  
+                           & \hl{\textit{Excellent Academic Achievement}}, Department of Economics, Hitotsubashi University, 2012          \\
+  
+                           & \hl{\textit{Japan Student Services Organization Scholarship}}, for exchange to UC Berkeley, 2013              \\
+                           & Actuarial Exam P, 11/17/2011, ID: 82124                                                                       \\
+                           & Actuarial Exam FM, 4/9/2012, ID: 66205                                                                        \\
+                           &                                                                                                               \\ \hline
+                           &                                                                                                               \\
+  \textbf{Research}        & \hl{Sufficient Dimension Reduction}, Functional Data Analysis, Support Vector Machines, \hl{Neural Networks}, \\
+                           & Graph Embedding, \hl{Reproducing Kernel Hilber Space}                                                         \\
+                           &                                                                                                               \\ \hline
+                           &                                                                                                               \\
+  \textbf{Practical}       & \hl{Semiparametric Copula Estimation}, Quantile Regression, Non-stationary Time Series Analysis Estimation,   \\
+  \textbf{Experiences}     & Discrete Cosine Transform Portfolio Construction, Linear \& Quadratic Programming,                            \\
+                           & Numerical Calculation of Derivative Prices, Substitute Charge Method, Finite Element Method,                  \\
+                           & \hl{Reinforcement Learning}, \hl{Gradient Boosting}                                                           \\
+                           &                                                                                                               \\ \hline
+                           &                                                                                                               \\
   % \\
-  % \textbf{Relevant} & Probability Theory\\
-  % \textbf{Coursework}     & Stochastic Processes \& Monte Carlo Methods \\
-  %      & Theory of Statistics \\
-  %      & Statistical Computing\\
-  %      & Linear Models\\
-  %      & Asymptotic Tools\\
-  %      & Statistical Inference\\
-  %      & Multivariate Analysis\\
-  %      & Functional Data Analysis\\
-  %      & High Dim. Modelling \& Applications\\
-  %      & Categorical Data\\
-  %      & Design \& Analysis of Experiments\\
-  %      & Regression Models\\
-  %      & Nonparametric Methods\\
-  %      &\\
-  \textbf{Languages}     & \texttt{python} (used in internship and research)                                                     \\
-                         & \texttt{julia}, \texttt{r} (used in research)                                                         \\
-                         & \texttt{c}, \texttt{c++}, \texttt{matlab} (previously used in research)                               \\
-                         & \LaTeX, \texttt{html}, \texttt{css}, \texttt{git}, experience with \texttt{UNIX} (used daily)         \\
-                         & \texttt{sql} (have some experience)                                                                   \\
-                         & Japanese $>$ English $>$ Chinese $>$ French $>$ Spanish                                               \\
-                         &                                                                                                       \\\hline
-                         &                                                                                                       \\
-  \textbf{Certification} & Actuarial Exam P, 11/17/2011, ID: 82124                                                               \\
-                         & Actuarial Exam FM, 4/9/2012, ID: 66205                                                                \\
-                         &                                                                                                       \\\hline
-                         &                                                                                                       \\
+  \textbf{Notable}         & Statistical Computing, \hl{High Dimensional} Modelling \& Applications, \hl{Nonparametric} Methods            \\
+  \textbf{Coursework}      & Stochastic Processes \& Monte Carlo Methods, Categorical Data                                                 \\
+  
+                           &                                                                                                               \\ \hline
+                           &                                                                                                               \\
+  \textbf{Languages}       & \hl{\texttt{python}} (used in internship and research)                                                        \\
+                           & \hl{\texttt{julia}, \texttt{r}} (used in research)                                                            \\
+                           & \hl{\texttt{c}, \texttt{c++}}, \texttt{matlab} (previously used in research)                                  \\
+                           & \LaTeX, \texttt{html}, \texttt{css}, \hl{\texttt{git}}, experience with \texttt{UNIX} (used daily)            \\
+                           & \hl{\texttt{sql}} (have some experience)                                                                      \\
+                           & Japanese $>$ English $>$ Chinese $>$ French $>$ Spanish                                                       \\
+                           &                                                                                                               \\\hline
+                           &                                                                                                               \\
  \end{tabular}\\
  {\setmainfont{kaiu.ttf} 一期一会}\\
- Treasure every meeting, for it will never recur.
+ \vspace{1em}
+ Treasure every meeting, for it will never recur\textleaf
 \end{center}
 \end{document}
