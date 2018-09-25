@@ -12,7 +12,7 @@
 \usepackage{textcomp}
 %\setmainfont{kaiu.ttf}
 \graphicspath{ {images/}}
-\usepackage[left=0.3in, right=0.3in, bottom=0.29in, top=0.29in]{geometry}
+\usepackage[left=0.5in, right=0.5in, bottom=0.5in, top=0.5in]{geometry}
 \newcommand*{\Skype}{\href{skype:john.smith?add}{john.smith}}
 \newcommand{\Absender}[1][\normalsize]{\Skype}
 \usepackage[symbol]{footmisc}
@@ -78,17 +78,16 @@
                            & Graph Embedding, Poincar\'e Embedding, \hl{Reproducing Kernel Hilber Space}                                   \\
                            &                                                                                                               \\ \hline
                            &                                                                                                               \\
-  \textbf{Practical}       & \hl{Semiparametric Copula Estimation}, Quantile Regression, Non-stationary Time Series Analysis Estimation,   \\
+  \textbf{Practical}       & Quantile Regression, Non-stationary Time Series Analysis,                                                     \\
   \textbf{Experiences}     & Discrete Cosine Transform Portfolio Construction, Linear \& Quadratic Programming,                            \\
-                           & Numerical Calculation of Derivative Prices, Substitute Charge Method, Finite Element Method,                  \\
-                           & \hl{Reinforcement Learning}, \hl{Gradient Boosting}                                                           \\
+                           & Numerical Calculation of Derivative Prices, Substitute Charge Method, Finite Element Method                   \\
                            &                                                                                                               \\ \hline
                            &                                                                                                               \\
   % \\
   \textbf{Notable}         & Statistical Computing, \hl{High Dimensional} Modelling \& Applications, \hl{Nonparametric} Methods            \\
   \textbf{Coursework}      & Stochastic Processes \& Monte Carlo Methods, Categorical Data, Regression Models, Theory of Statistics,       \\
                            & Asymptotic Tools, Probability Theory, Linear Models, Design and Analysis of Experiments                       \\
-                           & Statistical Inference, Multivariate Analysis                                                                  \\                                                       
+                           & Statistical Inference, Multivariate Analysis, Sufficient Dimension Reduction                                  \\
                            &                                                                                                               \\ \hline
                            &                                                                                                               \\
   \textbf{Languages}       & \hl{\texttt{python}} (used in internship and research)                                                        \\
@@ -99,4 +98,11 @@
                            & Japanese $>$ English $>$ Chinese $>$ French $>$ Spanish                                                       \\
  \end{tabular}
 \end{center}
+\newpage
+\subsubsection*{Elaboration on Coursework}
+The listed courses are all Ph.D. level courses. This has involved many programming projects. I have also attended numerous seminars on Statistics. The Statistical instruction company Aidemy provides me with free access to their charged courses as well as their private courses. There, I have learned things such as  Reinforcement Learning, Image Processing, Data Scraping, and Natural Language Processing.
+\subsubsection*{Elaboration on Teaching}
+I have taught for four semesters. STAT 463 (a Junior and Senior level Time Series course), STAT 415 (Junior and Senior level Statistical Theory course), STAT 401 (twice, an easier version of STAT 415). For the last two semesters of teaching I have provided mterials on my website. You may wish to take a look. You may wish to also take a look at my blog, the link of which is also provided on my website. On my blog, you may also see my \texttt{github} account. Although not all work is made public. I have also graded two Ph.D. level courses, STAT 513 and STAT 514 (Theory of Statistics I and II). These two cover the most important theoretical knowledge needed in the Ph.D. Study of Statistics.
+\subsubsection*{Elaboration on Projects and Practical Experiences}
+Because my undergraduate department had high interest in time series analysis, I had studied literatures on how to perform Nonlinear modelling of quantiles in time series data. The core of the idea was to do separate regressions on a shifting window. For my undergraduate graduation project, I studied the repeating patterns of prices for stocks. Each stock has a coefficient for Cosine functions of differnt frequencies. The idea was that the Cosine function that only completes a half cycle corresponds to the trend. So we want to find a lineat combinations of the stocks that minimizes the coefficient on the trend while minimizing the coefficients of all other Cosine components which corresponds to variance. This final part was done with Linear Programming. During my undergraduate study, I extensively coded $c$ implementations of numerical calculations of derivatives. Substitute Charge Method finds a solution that satisfies certain conditions by using basis functions that satisfy them. It is so called because for certain problems, these basis functions are exactly the ones that appear when you calculate the force by a charge in physics. Finite Element Method is another, more common way of calculating derivative prices. Also used in engineering, it approximates a continuous phenomenon by a discrete grid. 
 \end{document}
