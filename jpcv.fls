@@ -81,8 +81,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
-INPUT /usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
-INPUT /usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
@@ -100,10 +102,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def
@@ -126,7 +124,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
-INPUT /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/kaiu.luc
 INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
@@ -154,6 +151,12 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/kaiu.luc
+INPUT /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-regular.luc
+INPUT /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/ipaexm.luc
+INPUT /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/ipaexg.luc
+INPUT /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-regular.luc
+INPUT /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
