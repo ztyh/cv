@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  8 NOV 2018 10:01
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  8 NOV 2018 11:03
  restricted system commands enabled.
  file:line:error style messages enabled.
 **jpcv.tex
@@ -23,7 +23,7 @@ Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.162 seconds
+luaotfload | main : initialization completed in 0.115 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -939,12 +939,12 @@ Here is how much of LuaTeX's memory you used:
  100000,552014 words of node,token memory allocated
  435 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 2 glyph, 6 attribute, 53 glue_spec, 6 attribute_list, 1 write nodes
-   avail lists: 2:932,3:14,4:35,5:61,6:1273,7:779,8:88,9:238,10:1,11:30
+   avail lists: 2:932,3:14,4:35,5:61,6:1258,7:779,8:88,9:238,10:1,11:30
  20641 multiletter control sequences out of 65536+600000
  49 fonts using 29720631 bytes
  39i,9n,67p,374b,330s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmono9-regular.otf><./ipaexg.ttf></home/ztyh0121/.local/share/fonts/ipaexm.ttf><./kaiu.ttf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb>
-Output written on jpcv.pdf (1 page, 396277 bytes).
+Output written on jpcv.pdf (1 page, 395888 bytes).
 
 PDF statistics: 48 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
