@@ -1,13 +1,45 @@
+<<<<<<< Updated upstream
 This is e-upTeX, Version 3.14159265-p3.8.0-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.4.16)  14 NOV 2018 21:14
 entering extended mode
  restricted \write18 enabled.
+=======
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  14 NOV 2018 11:04
+ restricted system commands enabled.
+>>>>>>> Stashed changes
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **cv.tex
+<<<<<<< Updated upstream
 (./cv.tex
 pLaTeX2e <2018-04-01u02>+1 (based on LaTeX2e <2018-04-01> patch level 2)
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+=======
+(/home/ztyh0121/cv/cv.tex
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended collection.(using write cache: /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic)(using read cache: /var/lib/texmf/luatex-cache/generic /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
+luaotfload | main : initialization completed in 0.131 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+>>>>>>> Stashed changes
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -568,6 +600,20 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
+<<<<<<< Updated upstream
+=======
+Here is how much of LuaTeX's memory you used:
+ 7046 strings out of 494480
+ 100000,221844 words of node,token memory allocated
+ 392 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 1 glyph, 4 attribute, 49 glue_spec, 4 attribute_list, 1 write nodes
+   avail lists: 2:1004,3:16,4:9,5:334,6:4097,7:1279,8:99,9:260,10:1,11:462
+ 10978 multiletter control sequences out of 65536+600000
+ 33 fonts using 2344503 bytes
+ 28i,9n,35p,369b,328s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texmf/fonts/opentype/public/lm/lmroman6-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmmono9-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb>
+Output written on cv.pdf (1 page, 42842 bytes).
+>>>>>>> Stashed changes
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
