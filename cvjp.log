@@ -1,35 +1,17 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.15)  8 NOV 2018 09:50
- restricted system commands enabled.
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  3 DEC 2018 08:45
+entering extended mode
+ restricted \write18 enabled.
  file:line:error style messages enabled.
+ %&-line parsing enabled.
 **cvjp.tex
 (/home/ztyh0121/cv/cvjp.tex
 LaTeX2e <2017-04-15>
-Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
-Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended collection.(using write cache: /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic)(using read cache: /var/lib/texmf/luatex-cache/generic /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic)
-luaotfload | conf : Root cache directory is /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/names.
-luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader-2017-02-11.lua”.
-Lua-only attribute luaotfload@state = 1
-Lua-only attribute luaotfload@noligature = 2
-Lua-only attribute luaotfload@syllabe = 3
-luaotfload | init : Context OpenType loader version “3.027”
-Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
-Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua-only attribute luaotfload_color_attribute = 4
-luaotfload | conf : Root cache directory is /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/names.
-Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_font'.
-Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch_font'.
-Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
-Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
-Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.138 seconds
-Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc))
+)
 \c@part=\count79
 \c@section=\count80
 \c@subsection=\count81
@@ -53,22 +35,23 @@ Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX detected.
+Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
-
-(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)
 Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks14
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
@@ -85,7 +68,7 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks14
 ) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
@@ -133,9 +116,9 @@ LaTeX Info: Redefining \pageref on input line 6443.
 \c@Item=\count93
 \c@Hfootnote=\count94
 )
-Package hyperref Info: Driver (autodetected): hluatex.
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2018/02/06 v6.86b Hyperref driver for luaTeX
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count95
 \c@bookmark@seq@number=\count96
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
@@ -191,7 +174,8 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
 \mc@col@check@num=\count105
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
@@ -200,10 +184,9 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: luatex.def on input line 99.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
-File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen116
 \Gin@req@width=\dimen117
@@ -212,7 +195,7 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: luatex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -224,11 +207,11 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks16
-\SOUL@lasttoken=\toks17
-\SOUL@cmds=\toks18
-\SOUL@buffer=\toks19
-\SOUL@token=\toks20
+\SOUL@word=\toks15
+\SOUL@lasttoken=\toks16
+\SOUL@cmds=\toks17
+\SOUL@buffer=\toks18
+\SOUL@token=\toks19
 \SOUL@spaceskip=\skip46
 \SOUL@ttwidth=\dimen118
 \SOUL@uldp=\dimen119
@@ -325,10 +308,10 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen126
 \Gm@layouthoffset=\dimen127
 \Gm@layoutvoffset=\dimen128
-\Gm@dimlist=\toks21
+\Gm@dimlist=\toks20
 ) (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks22
+\FN@temptoken=\toks21
 \footnotemargin=\dimen129
 \c@pp@next@reset=\count109
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
@@ -343,7 +326,7 @@ LaTeX Warning: Unused global option(s):
     [utf8].
 
 (/home/ztyh0121/cv/cvjp.aux)
-\openout1 = cvjp.aux
+\openout1 = `cvjp.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -352,8 +335,6 @@ LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -381,8 +362,8 @@ LaTeX Info: Redefining \pageref on input line 21.
 LaTeX Info: Redefining \nameref on input line 21.
  (/home/ztyh0121/cv/cvjp.out) (/home/ztyh0121/cv/cvjp.out)
 \@outlinefile=\write3
+\openout3 = `cvjp.out'.
 
-\openout3 = cvjp.out
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count111
@@ -390,12 +371,12 @@ LaTeX Info: Redefining \nameref on input line 21.
 \scratchbox=\box53
 \nofMPsegments=\count112
 \nofMParguments=\count113
-\everyMPshowfont=\toks23
+\everyMPshowfont=\toks22
 \MPscratchCnt=\count114
 \MPscratchDim=\dimen131
 \MPnumerator=\count115
 \makeMPintoPDFobject=\count116
-\everyMPtoPDFconversion=\toks24
+\everyMPtoPDFconversion=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -442,14 +423,18 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(load luc: /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc)(load luc: /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bolditalic.luc)(load luc: /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-regular.luc)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 27.
-(load luc: /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-bold.luc)(load luc: /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-italic.luc)(load luc: /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmmono9-regular.luc)(load luc: /home/ztyh0121/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-regular.luc)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 98.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 98.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
  [1
 
@@ -461,22 +446,20 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
 Package rerunfilecheck Info: File `cvjp.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
-)
-
-Here is how much of LuaTeX's memory you used:
- 7046 strings out of 494480
- 100000,221844 words of node,token memory allocated
- 392 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 1 glyph, 4 attribute, 49 glue_spec, 4 attribute_list, 1 write nodes
-   avail lists: 2:996,3:14,4:9,5:331,6:4044,7:1271,8:97,9:260,10:1,11:461
- 10978 multiletter control sequences out of 65536+600000
- 33 fonts using 2344503 bytes
- 28i,9n,35p,371b,328s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texmf/fonts/opentype/public/lm/lmroman6-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmmono9-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb>
-Output written on cvjp.pdf (1 page, 42113 bytes).
-
-PDF statistics: 62 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+ ) 
+Here is how much of TeX's memory you used:
+ 6763 strings out of 492982
+ 99207 string characters out of 6134895
+ 199674 words of memory out of 5000000
+ 10279 multiletter control sequences out of 15000+600000
+ 7301 words of font info for 26 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 28i,10n,35p,441b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on /home/ztyh0121/cv/cvjp.pdf (1 page, 101097 bytes).
+PDF statistics:
+ 46 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
